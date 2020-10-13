@@ -1,0 +1,31 @@
+*{
+  box-sizing :border-box
+}
+
+body{
+  background-color:#9b59b6;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  margin:0;
+  font:18px solid sans-serif;
+  font-weight:bold
+
+}
+#main{
+  background: #c9c9c9;
+  position:relative;
+  border:2px solid rebeccapurple;
+  overflow: hidden; 
+  width: 500px;
+}
+
+#main #sub {
+  position: absolute;
+  top:4px;
+  left:5px;
+  right:10px;
+  width: 100%;
+  text-align: justify;
+}
